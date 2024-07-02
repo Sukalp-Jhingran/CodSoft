@@ -1,0 +1,34 @@
+Face Recognition Application:
+This project implements a face detection and recognition system using Python, tkinter for the GUI, and the face_recognition library for face detection and recognition tasks.
+
+Overview:
+    -> This project consists of two main components:
+          1. Face Detection: Uses dlib's pre-trained HOG + SVM face detector to detect faces in an image. It draws rectangles around the detected faces.
+          2. Face Recognition: Uses the face_recognition library to recognize faces. It compares an uploaded image with a known image to determine if they are a match.
+
+Requirements:
+    -> Ensure you have Python installed along with the following libraries:
+        1. tkinter
+        2. opencv-python
+        3. dlib
+        4. face_recognition
+        5. matplotlib
+        6. PIL (Python Imaging Library)
+
+Usage:
+    -> Clone the Repository:
+    -> Open the notebook containing the face detection and recognition applications.
+    -> Execute the Code:
+            1. Execute each cell in the notebook sequentially.
+            2. Upload the known image for face recognition by clicking "Upload Original Face".
+            3. Upload an image for recognition by clicking "Upload for Recognition".
+            4. The application will display the original and recognized images with a result message ("It's a match!" or "No match found.").
+
+Files:
+    -> face_recognition_app.ipynb: Jupyter Notebook containing the code for face detection and recognition using tkinter and face_recognition library.
+    -> me.jpg: Sample image used as the known face for recognition.
+    -> p1.jpg: Sample image used for recognition.
+
+Notes: 
+    -> This application demonstrates basic face detection and recognition capabilities using pre-trained models.
+    -> It provides a simple GUI interface for users to interact with the application.
