@@ -1,0 +1,37 @@
+Text Classification Project:
+  This project aims to classify movie descriptions into their respective genres using machine learning models. 
+  The models used in this project are Naive Bayes and Logistic Regression, with a focus on preprocessing text data and evaluating model performance.
+
+Dataset:
+  The datasets used in this project are:
+      -> train_data.txt: Contains training data with columns TITLE, GENRE, and DESCRIPTION.
+      -> test_data.txt: Contains testing data with columns ID, TITLE, and DESCRIPTION.
+
+Usage:
+  1. Load and Explore Data:
+      -> Load the training and testing datasets.
+      -> Check the information and structure of the datasets.
+
+  2. Data Visualization:
+      -> Visualize the distribution of genres in the training dataset using a count plot with a custom color palette.
+
+  3. Data Cleaning:
+      -> Convert text to lowercase.
+      -> Remove URLs, mentions, and special characters.
+      -> Tokenize text and remove stopwords.
+      -> Apply stemming using the Lancaster Stemmer.
+
+  4. Feature Extraction:
+      -> Use TF-IDF vectorizer to convert text data into numerical features.
+
+  5. Model Training and Evaluation:
+      -> Split the training data into training and validation sets.
+      -> Train and evaluate Naive Bayes and Logistic Regression models.
+      -> Compare the models based on validation accuracy.
+
+  6. Prediction:
+      -> Use the best-performing model to predict genres for the test dataset.
+
+Results:
+  The results of the model comparison are displayed in a bar plot, showing the accuracy of Naive Bayes and Logistic Regression models. 
+  The test dataset is also displayed with the predicted genres.
