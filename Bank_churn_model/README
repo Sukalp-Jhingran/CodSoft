@@ -1,0 +1,51 @@
+Bank Customer Churn Prediction:
+  This repository contains a Jupyter Notebook for predicting bank customer churn using three machine learning models: 
+     -> Logistic Regression
+     -> RandomForestClassifier
+     -> GradientBoostingClassifier.
+
+Project Overview:
+    -> Customer churn prediction is crucial for banks to retain their customers and improve their services. 
+    -> This project demonstrates how to build and evaluate machine learning models to predict whether a customer will leave the bank.
+
+Dataset:
+    -> The dataset used in this project is Churn_Modelling.csv. 
+    -> It contains information about bank customers, including their demographics, account information, and churn status.
+
+Features:
+    -> CreditScore: Credit score of the customer
+    -> Geography: Country of the customer
+    -> Gender: Gender of the customer
+    -> Age: Age of the customer
+    -> Tenure: Number of years the customer has been with the bank
+    -> Balance: Account balance
+    -> NumOfProducts: Number of bank products the customer is using
+    -> HasCrCard: Whether the customer has a credit card
+    -> IsActiveMember: Whether the customer is an active member
+    -> EstimatedSalary: Estimated salary of the customer
+    -> Exited: Whether the customer has left the bank
+
+Libraries Used: 
+    -> numpy
+    -> pandas
+    -> matplotlib
+    -> seaborn
+    -> scikit-learn
+
+Models: 
+  Three models are used in this project:
+    1. Logistic Regression
+    2. RandomForestClassifier
+    3. GradientBoostingClassifier
+
+
+Evaluation Metrics:
+The models are evaluated using the following metrics:
+    ->  Accuracy
+    ->  Classification Report
+    ->  Confusion Matrix
+
+Conclusion:
+This project demonstrates how to use machine learning models to predict customer churn in the banking sector. 
+By identifying customers who are likely to leave, banks can take proactive measures to retain them and improve customer satisfaction.
+
