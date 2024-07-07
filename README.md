@@ -7,5 +7,6 @@ Welcome to Projecting Projects, your gateway to exploring fascinating projects i
 - Face Detection and Recognition: Delve into the capabilities of computer vision with our face detection and recognition code. Discover how AI can identify and classify faces with precision, offering applications across security, personalization, and more.
 - Bank Customer Churn Prediction: Harness the power of machine learning algorithms to predict customer churn. This project employs advanced algorithms to identify customers likely to leave, providing valuable insights for improving retention strategies.
 - Movie Genre Classification: Discover how machine learning can sort movie descriptions into genres. This project showcases natural language processing to help organize and recommend content effortlessly.
-
+- Spam SMS Classification: Combat unwanted messages with our Spam SMS Classification project. Utilizing natural language processing and machine learning algorithms, this project classifies SMS messages as spam or ham (non-spam).
+  
 Each project is crafted to illustrate the practical applications of AI and ML technology, offering insights into implementation, optimization, and real-world use cases.
