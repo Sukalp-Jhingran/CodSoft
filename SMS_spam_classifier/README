@@ -1,0 +1,34 @@
+Spam SMS Classification:
+- This project was developed as part of my AI Internship at CodSoft. 
+- The goal of this project is to classify SMS messages as spam or ham (non-spam) using machine learning algorithms. 
+- The project focuses on implementing and evaluating two popular algorithms: Naive Bayes and Logistic Regression.
+
+Features:
+  -> Text preprocessing using NLTK
+  -> Feature extraction using TF-IDF
+  -> Implementation of Naive Bayes and Logistic Regression algorithms
+  -> Model evaluation using accuracy and confusion matrices
+
+Basic Codes Explanation:
+  -> Data Preprocessing: Loading the dataset, cleaning the text data, and converting it to lowercase.
+  -> Text Tokenization: Splitting the text into individual words (tokens) using NLTK.
+  -> Feature Extraction: Converting the text data into numerical features using TF-IDF vectorization.
+  -> Model Training: Training Naive Bayes and Logistic Regression models on the extracted features.
+  -> Model Evaluation: Evaluating the models' performance using accuracy scores and confusion matrices.
+
+Imported Libraries:
+  -> Pandas: For data manipulation and analysis.
+  -> NumPy: For numerical operations.
+  -> NLTK (Natural Language Toolkit): For text preprocessing and tokenization.
+  -> Scikit-learn: For machine learning algorithms and model evaluation.
+        -> CountVectorizer and TfidfTransformer for feature extraction.
+        -> train_test_split for splitting the dataset.
+        -> MultinomialNB for Naive Bayes classification.
+        -> LogisticRegression for logistic regression classification.
+        -> confusion_matrix and accuracy_score for model evaluation.
+
+Results:
+- The project successfully classifies SMS messages with a high level of accuracy. 
+- The Naive Bayes model, known for its simplicity and effectiveness in text classification, performs well in distinguishing between spam and ham messages. 
+- Logistic Regression, a widely-used algorithm for binary classification tasks, also provides robust performance with good accuracy. 
+- The confusion matrices and accuracy scores for both models are provided in the notebook.
